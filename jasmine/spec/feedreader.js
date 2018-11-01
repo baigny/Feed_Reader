@@ -58,14 +58,13 @@ $(function() {
     });
 
 
-
-    
     // Initial Entries Test Suite
 
     describe('Initial Entries', function() {
+        
         /* Test to ensure when the loadFeed function is called and completes its work, 
            there is at least a single .entry element within the .feed container.
-         */
+         */ 
          beforeEach(function(done){
             loadFeed(0,done);
          });
@@ -78,7 +77,8 @@ $(function() {
         });
     });
 
-//New Feed Selection
+//New Feed Selection 
+
 
  describe('New Feed Selection', function() {
        
@@ -104,4 +104,4 @@ $(function() {
    
 
     
-}());
+}()); 
